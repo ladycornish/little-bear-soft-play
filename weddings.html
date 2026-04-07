@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -34,26 +34,26 @@
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
     <meta property="og:site_name" content="The Little Bear Soft Play Company" />
     <!-- website name -->
+    <meta property="og:site" content="The Little Bear Soft Play Company" />
+    <!-- website link -->
     <meta
-      property="og:site"
+      property="og:title"
       content="https://thelittlebearsoftplaycompany.com"
     />
-    <!-- website link -->
-    <meta property="og:title" content="The Little Bear Soft Play Company" />
     <!-- title shown in the actual shared post -->
     <meta
       property="og:description"
       content="The Little Bear Soft Play Company; Essex Luxury Soft Play Hire"
     />
     <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="" />
-    <!-- image link, make sure it's jpg -->
     <meta
-      property="og:url"
-      content="https://thelittlebearsoftplaycompany.com"
+      property="og:image"
+      content="The Little Bear Soft Play Company; Essex Luxury Soft Play Hire"
     />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="images/logo.jpg" />
     <!-- where do you want your post to link to -->
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="" />
     <!-- to have large image post format in Twitter -->
 
     <!--End of Social Media-->
@@ -69,180 +69,106 @@
 
     <link rel="stylesheet" href="swiper.css" />
   </head>
+
   <body>
-    <!--Navigation-->
-    <nav class="navbar">
-      <img src="images/logo.jpg" alt="fluffy bear" class="logo" />
-      <a
-        class="white nav-social"
-        href="https://www.instagram.com/thelittlebearsoftplaycompany/"
-        target="_blank"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <div class="topnav" id="myTopnav">
-        <a class="nav-link no-line" href="index.html">Home</a>
-        <a class="nav-link no-line" href="index.html#themes">Themes</a>
-        <a
-          class="nav-link no-line"
-          href="mailto:thelittlebearsoftplaycompany@gmail.com?subject=New Web Enquiry"
-          >Contact</a
-        >
-      </div>
-      <a
-        href="javascript:void(0);"
-        class="icon"
-        id="bars"
-        onclick="navFunction()"
-        ><i class="white fa-solid fa-bars"></i
-      ></a>
+    <!-- New Nav-->
+
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="open navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <i class="fa-solid fa-xmark close"></i>
+
+      <div class="nav-wrapper"></div>
+
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <button class="dropdown-btn nav-btn">
+          <a class="soft-play-nav" href="#">Soft Play Packages <i class="arrow fa fa-caret-down"></i> </a>
+        </button>
+        <ul class="dropdown-container">
+          <li><a href="deluxe.html">Delux</a></li>
+          <li><a href="deluxe-XL-package.html">Deluxe XL</a></li>
+          <li><a href="safari-package.html">Safari Package</a></li>
+          <li><a href="little-princess.html">Little Princess</a></li>
+          <li><a href="little-prince.html">Little Prince</a></li>
+          <li><a href="baby-blues.html">Baby Blues</a></li>
+          <li><a href="pretty-pastels.html">Pretty Pastels</a></li>
+          <li><a href="toddler-package.html">Toddler Packager</a></li>
+          <li><a href="midi-luxe.html">Midi Luxe</a></li>
+          <li><a href="mini-luxe.html">Mini Luxe</a></li>
+        </ul>
+        <li><a href="balloon-displays.html">Balloon Displays</a></li>
+        <li><a href="bouncy-castles.html">Bouncy Castles</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="add-ons.html">Add Ons</a></li>
+        <li><a href="enquire-here.html">Enquire Here</a></li>
+        
+      </ul>
     </nav>
 
-    <header class="header">
-      <div class="header-content">
-        <h1>Wedding Setups</h1>
-        <h3>Essex Luxury Soft Play Hire</h3>
-        <h6>As Seen In OK Magazine</h6>
+    <!--header-->
+
+    <header>
+      <div class="header">
+        <img
+          class="header-img"
+          src="images/title.png"
+          alt="little bear soft play company"
+        />
       </div>
-      <img src="images/peeking-bear.png" alt="peeking bear" class="hero-img" />
     </header>
 
     <!--End of header-->
+    <section class="wedding-main">
+      <h2 class="wedding-title">WEDDINGS</h2>
+      <p>Price Upon Request</p>
 
-    <div class="wedding-gallery">
-      <div class="themes-container">
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-1.png" target="_blank"
-              ><img src="images/wedding-1.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-2.png" target="_blank"
-              ><img src="images/wedding-2.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-3.png" target="_blank"
-              ><img src="images/wedding-3.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-4.png" target="_blank"
-              ><img src="images/wedding-4.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-5.png" target="_blank"
-              ><img src="images/wedding-5.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-6.png" target="_blank"
-              ><img src="images/wedding-6.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-7.png" target="_blank"
-              ><img src="images/wedding-7.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-8.png" target="_blank"
-              ><img src="images/wedding-8.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-9.png" target="_blank"
-              ><img src="images/wedding-9.png" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme">
-          <div class="theme-img">
-            <a href="images/wedding-12.JPG" target="_blank"
-              ><img src="images/wedding-12.JPG" alt="wedding soft platy setup"
-            /></a>
-          </div>
-        </div>
-
-        <div class="theme wedding-theme">
-          <div class="theme-img">
-            <a href="images/wedding-11.png" target="_blank"
-              ><img src="images/wedding-11.png" alt=""
-            /></a>
-          </div>
-        </div>
+      <div class="wedding-images">
+        <div class="wedding-image"><img src="images/wedding-1.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-2.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-3.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-4.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-5.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-6.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-7.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-8.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-9.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-10.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-11.png" alt=""></div>
+        <div class="wedding-image"><img src="images/wedding-12.JPG" alt=""></div>
       </div>
-    </div>
-
-    <!--End of Testamonials-->
+    </section>
 
     <!--Footer-->
     <footer class="footer-section">
       <div class="footer-box">
-        <img class="footer-logo" src="images/logo.jpg" alt="" />
-      </div>
-      <div class="footer-box">
-        <h6 class="footer-title">About</h6>
+        
         <p class="about-text">
           Creating the perfect setup for your little ones occasions
         </p>
       </div>
-      <div class="footer-box">
-        <!--<h6 class="footer-title">Legal</h6>
-        <ul class="footer-list">
-          <li class="footer-item"><a class="no-line" href="">Insurance</a></li>
-          <li class="footer-item">
-            <a class="no-line" href="images/rules.jpeg" target="_blank"
-              >Rules</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="no-line" href="">Deposit/Refunds</a>
-          </li>
-          <li class="footer-item"><a class="no-line" href="">Cookies</a></li>
-        </ul>-->
-      </div>
 
-      <div class="footer-box">
-        <h6 class="footer-title">Follow Me</h6>
+      <div class="footer-box socials">
         <a
-          class="no-line footer-social"
+          class="footer-social"
           href="https://www.instagram.com/thelittlebearsoftplaycompany/"
           target="_blank"
         >
           <i class="white fa-brands fa-instagram"></i>
         </a>
-        <h6 class="footer-title">Contact Us</h6>
+
         <a
-          class="no-line footer-social"
-          href="mailto:thelittlebearsoftplaycompany@gmail.com?subject=New Web Enquiry"
+          class="footer-social"
+          href="https://www.facebook.com/profile.php?id=100083028835853#"
           target="_blank"
+        >
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+
+        <a
+          class="footer-social"
+          href="mailto:thelittlebearsoftplaycompany@gmail.com?subject=New Web Enquiry"
         >
           <i class="white fa-regular fa-paper-plane"></i>
         </a>
@@ -255,18 +181,13 @@
 
     <div class="copyright-container">
       <p>
-        © Copyright
-        <a
-          class="no-line"
-          href="https://www.instagram.com/thelittlebearsoftplaycompany/"
-          target="_blank"
-          >The Little Bear Soft Play Co</a
-        >
-        2024
+        © Copyright - 
+        The Little Bear Soft Play Co - 
+        
+        2026
       </p>
-      <p>
-        Website Designed By
-        <a class="no-line" href="https://ladycornish.com/" target="_blank"
+      <p class="ladycornish">
+        <a href="https://ladycornish.com/" target="_blank"
           >Lady Cornish Web Design - made with &#9829;</a
         >
       </p>
@@ -282,7 +203,6 @@
 
     <!--End of Up Button-->
 
-    <script src="swiper.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
