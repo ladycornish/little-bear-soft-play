@@ -266,6 +266,19 @@ a:hover {
   text-align: center;
 }
 
+.insta-text {
+  text-align: center;
+  margin-top: 30px;;
+}
+
+.insta-text i {
+  color: var(--light-brown-col) !important;
+}
+
+.insta-text i:hover {
+  color: var(--chocolate-brown) !important;
+}
+
 /* weddings section */
 
 .wedding-main {
