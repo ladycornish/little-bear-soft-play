@@ -277,7 +277,7 @@ a:hover {
 }
 
 .wedding-title {
-  font-size: 55px;;
+  font-size: 55px;
 }
 
 .wedding-main p {
@@ -289,7 +289,7 @@ a:hover {
 .wedding-images {
   display: flex;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -302,115 +302,118 @@ a:hover {
 
 /* enquiry section */
 .enquiry-main {
-width: 100%;
-margin: 40px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  width: 100%;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .enquiry-main h1 {
   color: var(--chocolate-brown);
-  font-size: 40px;;
-  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
 }
 
 .enquiry-main h2 {
   color: var(--chocolate-brown);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .enquiry-socials {
-  margin: 40px ;
+  margin: 40px;
 }
 
 .enquiry-socials i {
   color: var(--chocolate-brown);
-  font-size: 40px;;
-  
+  font-size: 40px;
 }
 
 .form-container {
-      background: white;
-      margin-top: 50px;
-      padding: 40px 50px;
-      border-radius: 16px;
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      max-width: 500px;
-    }
+  background: white;
+  margin-top: 50px;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
 
-  
+.form-group {
+  margin-bottom: 20px;
+}
 
-    .form-group {
-      margin-bottom: 20px;
-    }
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
 
-    label {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: 600;
-      color: #444;
-    }
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
 
-    input {
-      width: 100%;
-      padding: 12px 15px;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-      font-size: 16px;
-      transition: all 0.3s ease;
-    }
+input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
 
-    input:focus {
-      outline: none;
-      border-color: #667eea;
-      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-    }
+input,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  resize: vertical;
+}
 
-    input, textarea {
-      width: 100%;
-      padding: 12px 15px;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-      font-size: 16px;
-      transition: all 0.3s ease;
-      resize: vertical;
-    }
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
 
-    input:focus, textarea:focus {
-      outline: none;
-      border-color: #667eea;
-      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-    }
+textarea {
+  min-height: 120px;
+}
 
-    textarea {
-      min-height: 120px;
-    }
+.enquiry-button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(
+    135deg,
+    var(--chocolate-brown),
+    var(--light-brown-col)
+  );
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-top: 10px;
+}
 
-    .enquiry-button {
-      width: 100%;
-      padding: 14px;
-      background: linear-gradient(135deg, var(--chocolate-brown), var(--light-brown-col));
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-      margin-top: 10px;
-    }
+button:hover {
+  transform: translateY(-2px);
+}
 
-    button:hover {
-      transform: translateY(-2px);
-    }
-
-    .required::after {
-      content: " *";
-      color: red;
-    }
+.required::after {
+  content: " *";
+  color: red;
+}
 
 /* end of enquiry section */
 
@@ -563,6 +566,7 @@ footer {
   }
 
   .main-img-section {
+    width: 85%;
     margin: 70px auto;
   }
 
